@@ -14,6 +14,6 @@ Se presentan las siguientes competencias adquiridas, en orden de profundidad. Pa
   - Referencias por Zotero (integrado en Chrome).
   - Connected Papers.
   - Bases de datos Scopus, Science Direct, etc.
-  - Generación de graficos a partir de datos.
+  - Generación de gráficos a partir de grandes volumenes de datos.
 
 
