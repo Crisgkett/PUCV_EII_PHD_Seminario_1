@@ -1,0 +1,11 @@
+set pm3d map
+set xrange [-1.0:1.0]
+set yrange [0.0:1.0]
+set title "Phi distribution for Pe=1e1 - Power Law Scheme"
+set xlabel "X [long. units]"
+set ylabel "Y [long. units]"
+set size ratio -1
+set palette rgbformulae 33,13,10
+#set term jpeg
+#set output "mapa1e1.jpg"
+splot "map_1e1_3_PLS.dat"
