@@ -1,17 +1,23 @@
-# PUCV_EII_PHD_Seminario_1
-Repositorio del curso
+---
+title: "Repositorio Cristóbal Galleguillos"
+output: github_document
+---
+
+# Repositorio CGK
+
 
 Este repositorio está condensado el material generado en el desarrollo del curso de seminario de investigación 1, en el marco del doctorado en ingeniería industrial.
+
 Se presentan las siguientes competencias adquiridas (en orden de profundidad):
-Uso de Overleaf para generacion de documentos LaTex
-Códigos .tex
-Bibliografía .bib
-Ánalisis bilbiográfico via RStudio/Bibliometrix
-Seguimiento gestión de documentos en GitHub/Flujo KanBan
-Otras:
-Referencias por Zotero (integrado en Chrome)
-Connected Papers
-Bases de datos Scopus, Science Direct, etc.
+- Uso de Overleaf para generacion de documentos LaTex
+  - Códigos .tex
+  - Bibliografía .bib
+- Ánalisis bilbiográfico via RStudio/Bibliometrix
+- Seguimiento gestión de documentos en GitHub/Flujo KanBan
+- Otras:
+  -Referencias por Zotero (integrado en Chrome)
+  - Connected Papers
+  - Bases de datos Scopus, Science Direct, etc.
 
 
 
