@@ -8,7 +8,7 @@ output: github_document
 
 Este repositorio está condensado el material generado en el desarrollo del curso de seminario de investigación 1, en el marco del doctorado en ingeniería industrial.
 
-Se presentan las siguientes competencias adquiridas (en orden de profundidad):
+Se presentan las siguientes competencias adquiridas, en orden de profundidad. Para un seguimiento mas detallado ver el [Kanban](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/projects/1)  :
 - Uso de Overleaf para generacion de documentos LaTex
   - Códigos .tex
   - Bibliografía .bib
