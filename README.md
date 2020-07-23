@@ -1,6 +1,6 @@
 # Repositorio CGK
 
-En este repositorio está condensado el material generado en el desarrollo del curso "Sseminario de Investigación 1", en el marco del doctorado en ingeniería industrial, dictado por el Profesor [Sebastián Cea](https://github.com/sebacea/).
+En este repositorio está condensado el material generado en el desarrollo del curso "Seminario de Investigación 1", en el marco del doctorado en ingeniería industrial, dictado por el Profesor [Sebastián Cea](https://github.com/sebacea/).
 
 El programa y los detalles del curso están almacenados en este [repositorio](https://github.com/ei2/phdseminar).
 
