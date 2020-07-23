@@ -9,7 +9,7 @@ Se presentan las algunas de las competencias adquiridas, en orden de profundidad
   - Códigos .tex
   - Bibliografía .bib
   - [Ecuaciones](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/Ecuaciones%20en%20LaTex).
-- Ánalisis bibliográfico via [RStudio/Bibliometrix](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/An%C3%A1lisis%20bibliogr%C3%A1fico).
+- Ánalisis bibliográfico vía [RStudio/Bibliometrix](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/An%C3%A1lisis%20bibliogr%C3%A1fico).
 - Seguimiento gestión de documentos en GitHub/Flujo Kanban.
 - Otras:
   - Referencias por [Zotero](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/Gesti%C3%B3n%20de%20referencias%20bibliogr%C3%A1ficas) (integrado en Chrome).
