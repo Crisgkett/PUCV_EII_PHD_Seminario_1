@@ -8,7 +8,7 @@ Se presentan las algunas de las competencias adquiridas, en orden de profundidad
 - Uso de Overleaf para generacion de documentos LaTex.
   - Códigos .tex
   - Bibliografía .bib
-- Ánalisis bilbiográfico via [RStudio/Bibliometrix](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/An%C3%A1lisis%20bibliogr%C3%A1fico).
+- Ánalisis bibliográfico via [RStudio/Bibliometrix](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/An%C3%A1lisis%20bibliogr%C3%A1fico).
 - Seguimiento gestión de documentos en GitHub/Flujo Kanban.
 - Otras:
   - Referencias por [Zotero](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/Gesti%C3%B3n%20de%20referencias%20bibliogr%C3%A1ficas) (integrado en Chrome).
