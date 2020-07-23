@@ -9,7 +9,7 @@ Se presentan las siguientes competencias adquiridas, en orden de profundidad. Pa
   - Códigos .tex
   - Bibliografía .bib
 - Ánalisis bilbiográfico via RStudio/Bibliometrix.
-- Seguimiento gestión de documentos en GitHub/Flujo KanBan.
+- Seguimiento gestión de documentos en GitHub/Flujo Kanban.
 - Otras:
   - Referencias por Zotero (integrado en Chrome).
   - Connected Papers.
