@@ -11,9 +11,9 @@ Se presentan las algunas de las competencias adquiridas, en orden de profundidad
 - Ánalisis bilbiográfico via RStudio/Bibliometrix.
 - Seguimiento gestión de documentos en GitHub/Flujo Kanban.
 - Otras:
-  - Referencias por [Zotero](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/Gestión de referencias bibliográficas) (integrado en Chrome).
+  - Referencias por [Zotero](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/Gesti%C3%B3n%20de%20referencias%20bibliogr%C3%A1ficas) (integrado en Chrome).
   - Connected Papers.
   - Bases de datos Scopus, Science Direct, etc.
-  - Generación de gráficos a partir de grandes volumenes de datos.
+  - Generación de [gráficos](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/Gesti%C3%B3n%20de%20Gr%C3%A1ficos) a partir de grandes volumenes de datos.
 
 
