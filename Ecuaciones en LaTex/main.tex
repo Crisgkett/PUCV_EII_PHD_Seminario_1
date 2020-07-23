@@ -1,0 +1,178 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Comandos para manejar imágenes
+\usepackage{amsmath}
+
+
+\graphicspath{ {./images/} } % Carpeta de imágenes
+
+\setlength{\parskip}{2mm} % Espaciado
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+    \geometry{left=3cm,right=2cm,top=2cm,bottom=2cm}
+%
+%\usepackage[spanish]{babel}
+%
+\usepackage[fixlanguage]{babelbib}
+    \bibliographystyle{babunsrt}
+%
+
+\usepackage{floatrow}
+\floatsetup[table]{style=plaintop}
+
+\usepackage{url}
+
+\usepackage[top=2cm, bottom=2.5cm, right=3 cm, left=3 cm]{geometry} % margenes
+
+\usepackage{parskip} % Sangria
+
+
+\title{Evidencia ecuaciones en LaTex}
+\author{Cristóbal Galleguillos Ketterer^{1}$\\
+\small{$^{1}$Industrial PhD Program}\\
+\small{Pontificia Universidad Católica de Valparaíso}\\
+\small{cristobal.galleguillos@pucv.cl}}
+\date{\small{\today}}
+
+\begin{document}
+
+\maketitle
+
+\section{Matrix.}
+Incidence matrix \ref{m}:
+
+\begin{equation}
+    \begin{bmatrix}
+     1 & 1 & 0 & 0 & 0 & 0 & -1\\
+    -1 & 0 & 1 & -1 & 0 & 0 & 0\\
+    0 & -1 & -1 & 0 & 0 & 1 & 0\\
+    0 & 0 & 0 & 1 & -1 & 0 & 0\\
+    0 & 0 & 0 & 0 & 1 & -1 & 1
+\label{m}
+\end{bmatrix}
+\end{equation}
+
+
+\section{Several Models.}
+
+\begin{equation}
+min\sum_{s\in N:s\not= t}\sum_{t\in N:t\not= s}\sum_{(ij)\in P}=c_{ij}\;x_{ij}^{st} 
+\label{min}
+\end{equation}
+
+S.t.
+
+\begin{equation}
+\sum_{(ij)\in P}x_{ij}^{st} -\sum_{(ij)\in P}x_{ji}^{st} = \left\{ \begin{array}{lcc}
+             1,     &   i=s     &            \forall i\in N;s\in N:s\not=t\\
+             \\ -1, & i\not=s,t &            \forall i\in N;s\in N:s\not=t;t\in N:t\not=s\\\\
+             \\ -1, &  i=t      &           \forall i\in N;t\in N:t\not=s    
+             \end{array} \label{st}
+   \right. 
+\end{equation}
+
+Domain:
+
+\begin{equation}
+x_{ij}^{st}\in \left\lbrace0,1\right\rbrace\;\;\;\;\forall (ij)\in P;i\not=j;(st)\in N;s\not=t \label{bin}
+\end{equation}
+
+
+
+\begin{equation}
+ f(tik)=\sum_{t\in \textbf{T}}\;\sum_{i\in \textbf{PL}}\;\sum_{k\in \textbf{NP}}({cm}_{f}\;{h}_{im}^{t}+{cm}_{r}\;{h}_{im}^{t-1}+{cm}_{n}\;{h}_{im}^{t-2})\;{a}_{km}^{i}\;{x}_{ki}^{t}
+\end{equation}
+    
+\begin{equation}
+g(trk)=\sum_{t\in \textbf{T}}\;\sum_{r\in \textbf{CD}}\;\sum_{k\in \textbf{NP}} 
+{h}_{kr}^{t}\;{y}_{kr}^{t}    
+\end{equation}
+
+\begin{equation}
+h(tik)=\sum_{t\in \textbf{T}}\;\sum_{i\in \textbf{PL}}\;\sum_{k\in \textbf{NP}} 
+{pr}_{ki}^{i}\;{cc}_{il}\;{u}_{kil}^{t}+{pr}_{ki}^{i}\;{cc}_{ir}\;{v}_{kir}^{t}   
+\end{equation}
+
+\begin{equation}
+p(trk)=\sum_{t\in \textbf{T}}\sum_{r\in \textbf{CD}}\sum_{k\in \textbf{NP}} 
+{pr}_{kr}^{r}\;{cc}_{rl}\;{w}_{krl}^{t}
+\end{equation}
+
+The model is given by;
+\begin{equation}
+min\;\;f(tik)+g(trk)+h(tik)+p(trk)   
+\label{min3}
+\end{equation}
+\\
+S.t
+
+\begin{equation}
+\sum_{i\in \textbf{PL}}\!\sum_{l\in \textbf{CL}}{u}_{kil}^{t}+
+\sum_{r\in \textbf{CD}}\!\sum_{l\in \textbf{CL}}{w}_{krl}^{t}=
+\sum_{l\in \textbf{CL}} {d}_{kl}^{t}\;\;\;\;\;\;\;
+\forall\; t\in \textbf{T};k\in \textbf{NP}
+\label{r1}
+\end{equation}
+
+\begin{equation}
+\sum_{r\in \textbf{CD}}{y}_{kr}^{t}\leq
+\sum_{r\in \textbf{CD}}{p}_{r}^{t}\;\;\;\;\;\;\;
+\forall\; t\in \textbf{T};k\in \textbf{NP}
+\label{r2}
+\end{equation}
+
+\begin{equation}
+\sum_{i\in \textbf{PL}}{x}_{ki}^{t}\leq
+\sum_{i\in \textbf{PL}}{Q}_{i}^{t}{q}_{i}^{k}\;\;\;\;\;\;\;
+\forall\; t\in \textbf{T};k\in \textbf{NP}
+\label{r3}
+\end{equation}
+
+\begin{equation}
+\sum_{i\in \textbf{PL}}{x}_{ki}^{t}-
+\sum_{i\in \textbf{PL}}{u}_{kil}^{t}-
+\sum_{i\in \textbf{PL}}{v}_{kir}^{t}=0\;\;\;\;\;\;\;
+\forall\; t\in \textbf{T};k\in \textbf{NP};r\in \textbf{CD}
+\label{r4}
+\end{equation}
+
+Domain:
+
+
+\begin{equation}
+0\leq{Q}_{i}^{t}\leq1
+\label{r5}
+\end{equation}
+
+\begin{equation}
+{a}_{km}^{i},{d}_{kl}^{t},{q}_{i}^{k},{p}_{r}^{t},{Q}_{i}^{t}\geq0\;integer\;\;\;\;\;\;\;
+\forall\; t\in \textbf{T};k\in \textbf{NP};r\in \textbf{CD};i\in \textbf{PL}
+\label{r6}
+\end{equation}
+
+\begin{equation}
+{x}_{ki}^{t},{y}_{kr}^{t},{u}_{kil}^{t},{v}_{kir}^{t},{w}_{krl}^{t}\geq0\;integer\;\;\;\;\;\;
+\forall\; t\in \textbf{T};k\in \textbf{NP};r\in \textbf{CD};i\in \textbf{PL};l\in \textbf{CL}
+\label{r7}
+\end{equation}
+
+\begin{equation}
+{h}_{kr}^{t},{pr}_{ki}^{i},{pr}_{kr}^{r},{cc}_{il},{cc}_{rl},{cc}_{ir}
+{h}_{im}^{t},{cm}_{f},{cm}_{r},{cm}_{n}\geq0\;\;\;\;\;\;
+\forall\; t\in \textbf{T};k\in \textbf{NP};r\in \textbf{CD};i\in \textbf{PL};l\in \textbf{CL}
+\label{r7}
+\end{equation}
+
+\section{Diff eq.}
+\begin{equation}
+c\frac{\partial C_{mt}}{\partial t} =  \frac{\partial (\frac{\partial C_{mcr}}{\partial t}+\frac{\partial C_{mpr}}{\partial t}+\frac{\partial C_{mpv}}{\partial t})}{\partial E}+S
+\end{equation}
+
+
+  \nocite{*}
+%    \bibliography{src/ref}
+
+\end{document}
+
