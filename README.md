@@ -14,6 +14,6 @@ Se presentan las algunas de las competencias adquiridas, en orden de profundidad
   - Referencias por [Zotero](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/Gesti%C3%B3n%20de%20referencias%20bibliogr%C3%A1ficas) (integrado en Chrome).
   - Connected Papers.
   - Bases de datos Scopus, Science Direct, etc.
-  - Generación de [gráficos](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/Gesti%C3%B3n%20de%20Gr%C3%A1ficos) a partir de grandes volumenes de datos.
+  - Generación de [gráficos](https://github.com/Crisgkett/PUCV_EII_PHD_Seminario_1/tree/master/Generaci%C3%B3n%20de%20gr%C3%A1ficos) a partir de grandes volumenes de datos.
 
 
